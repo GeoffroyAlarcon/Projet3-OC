@@ -11,7 +11,9 @@ margin: 10px 70px;
 @mixin mobile-menu {
     
     @media (max-width: 640px){
-
+  h1 {
+font-size: 32px;
+  }
         .menu-1{
             grid-column: 100%;
         grid-row: 1;

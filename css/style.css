@@ -17,30 +17,33 @@ header h1 {
   margin: 0;
   flex-direction: column;
 }
+@media (max-width: 640px) {
+  .container h1 {
+    font-size: 32px;
+  }
+  .container .menu-1 {
+    grid-column: 100%;
+    grid-row: 1;
+  }
+  .container .menu-2 {
+    grid-column: 100%;
+    grid-row: 2;
+  }
+  .container .menu-3 {
+    grid-column: 100%;
+    grid-row: 3;
+  }
+  .container .menu-4 {
+    grid-column: 100%;
+    grid-row: 4;
+  }
+}
 
 .menu {
   display: grid;
   grid-template-columns: repeat(100%, 1fr);
   grid-gap: 10px;
   grid-auto-rows: minmax(500px, auto);
-}
-@media (max-width: 640px) {
-  .menu .menu-1 {
-    grid-column: 100%;
-    grid-row: 1;
-  }
-  .menu .menu-2 {
-    grid-column: 100%;
-    grid-row: 2;
-  }
-  .menu .menu-3 {
-    grid-column: 100%;
-    grid-row: 3;
-  }
-  .menu .menu-4 {
-    grid-column: 100%;
-    grid-row: 4;
-  }
 }
 
 .menu-1 {
