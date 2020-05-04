@@ -1,17 +1,15 @@
 header {
-  text-align: center;
   background-color: #579c87;
   display: flex;
-  padding: 0;
 }
 header h1 {
   text-transform: uppercase;
   color: #fdcb46;
-  font-size: 70px;
-  font-style: "sherif";
+  font-size: 60px;
+  font-style: sherif;
   text-align: center;
-  margin: 0;
   display: flex;
+  margin: auto;
 }
 
 .container {
@@ -69,7 +67,7 @@ header h1 {
   box-shadow: 1px -1px 4px 0px #000000;
   margin: 10px 70px;
 }
-.menu-2 > h1 {
+.menu-2 > h2 {
   color: #d5934b;
 }
 
@@ -102,24 +100,6 @@ header h1 {
   grid-template-columns: repeat(100%, 1fr);
   grid-gap: 10px;
   grid-auto-rows: minmax(10px, auto);
-}
-@media (max-width: 640px) {
-  .after .menu-1 {
-    grid-column: 100%;
-    grid-row: 1;
-  }
-  .after .menu-2 {
-    grid-column: 100%;
-    grid-row: 2;
-  }
-  .after .menu-3 {
-    grid-column: 100%;
-    grid-row: 3;
-  }
-  .after .menu-4 {
-    grid-column: 100%;
-    grid-row: 4;
-  }
 }
 .after > .txt {
   color: #fdcb46;

@@ -6,8 +6,12 @@ box-shadow: 1px -1px 4px 0px #000000;
 margin: 10px 70px;
 }
 
-@mixin mobile-first {
+
+
+@mixin mobile-menu {
+    
     @media (max-width: 640px){
+
         .menu-1{
             grid-column: 100%;
         grid-row: 1;

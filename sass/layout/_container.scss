@@ -10,7 +10,7 @@ display: grid;
 grid-template-columns: repeat(100%, 1fr);
 grid-gap: 10px;
 grid-auto-rows: minmax(500px, auto);
-@include mobile-first;
+@include mobile-menu;
 }
 .menu-1{
   grid-column:50%;
@@ -26,7 +26,7 @@ background-color: $bg-other;
 grid-column: 50%;
 grid-row: 1;
 @include box-menu;
->h1{
+>h2{
     color: #d5934b;
     }
 }
@@ -53,7 +53,7 @@ color: $txt-menu3;
     grid-template-columns: repeat(100%, 1fr);
     grid-gap: 10px;
     grid-auto-rows: minmax(10px, auto);
-    @include mobile-first;
+   
     
     >.txt{
     color: $logo;
