@@ -1,0 +1,29 @@
+@mixin box-menu {
+padding: 100px;
+display: flex;
+flex-direction: column;
+box-shadow: 1px -1px 4px 0px #000000;
+margin: 10px 70px;
+}
+
+@mixin mobile-first {
+    @media (max-width: 640px){
+        .menu-1{
+            grid-column: 100%;
+        grid-row: 1;
+        }
+        .menu-2{
+            grid-column: 100%;
+        grid-row: 2;
+        }
+        .menu-3{
+            grid-column: 100%;
+        grid-row: 3;
+        }
+        .menu-4{
+            grid-column: 100%;
+            grid-row: 4;
+        }
+    }
+    
+}

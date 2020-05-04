@@ -1,0 +1,73 @@
+.container{
+    display: flex;
+    margin:0;
+    flex-direction: column;
+}
+
+
+.menu{
+display: grid;
+grid-template-columns: repeat(100%, 1fr);
+grid-gap: 10px;
+grid-auto-rows: minmax(500px, auto);
+@include mobile-first;
+}
+.menu-1{
+  grid-column:50%;
+    grid-row: 1;
+    background-color: $bg-menu1;
+    @include box-menu;
+    >.icone{
+    font-size: 20px;
+    }
+ }
+.menu-2{
+background-color: $bg-other;
+grid-column: 50%;
+grid-row: 1;
+@include box-menu;
+>h1{
+    color: #d5934b;
+    }
+}
+
+.menu-3{
+    background-color: $bg-other;
+    grid-column: 50%; 
+    grid-row: 2;
+    @include box-menu;
+color: $txt-menu3;
+}
+
+
+.menu-4{
+    background-color: $bg-other;
+    grid-column:50%;
+    grid-row: 2;
+    @include box-menu;
+    color: $txt-menu4;
+}
+
+.after{
+    display: grid;
+    grid-template-columns: repeat(100%, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(10px, auto);
+    @include mobile-first;
+    
+    >.txt{
+    color: $logo;
+    background-color: $vertheader;
+    text-transform: uppercase;
+    border-radius: 50px;
+    grid-column: 30%;
+    grid-row: 1;
+margin: 20px 0px;
+padding: 0;
+text-align: center;
+}
+    >.vide{
+    grid-column: 30%;
+    grid-row: 1;
+    }
+}
