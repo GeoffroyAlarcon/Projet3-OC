@@ -6,10 +6,15 @@
 @import "./base/base";
 @import "./base/typography";
 
-@import "./components/buttons";
-
+@import "./composents/buttons";
+@import"./composents/img";
 @import "./layout/header";
 @import "./layout/nav";
 @import "./layout/container";
 @import "./layout/form";
 @import"./layout/footer";
+@import"./layout/box_menu";
+@import"./page/menu1";
+@import"./page/menu2";
+@import"./page/menu3";
+@import"./page/menu4";

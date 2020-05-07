@@ -1,12 +1,22 @@
 footer{
     background-color: $vertheader;
     color: $logo;
-    display: flex;
-.legal{
-width: 80%;
+    padding: 0px;
+    display: grid;
+grid-template-columns: 30% 40% 30%;
+margin: 0;
+p{
+margin:0;
 }
-    >.contact{
-    width: 20%;
-    }
+.legal{
+grid-row: 1;
+grid-column: 1;
+
+}
+
+.contact{
+grid-column: 3;
+grid-row: 1;
+}
     
 }

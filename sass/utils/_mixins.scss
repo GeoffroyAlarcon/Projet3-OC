@@ -1,35 +1,181 @@
 @mixin box-menu {
-padding: 100px;
 display: flex;
 flex-direction: column;
 box-shadow: 1px -1px 4px 0px #000000;
-margin: 10px 70px;
+margin: 30px 0px;
+}
+
+@mixin txt-box-menu2{
+  background: -webkit-linear-gradient( top, #d8852e, #9861ef);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;   
+
+}
+
+@mixin grid-menu {
+    display: grid;
+grid-template-columns: 10% 80% 10%;
+
+.ombremenu1
+{
+grid-column: 2;
+grid-row:1; 
+display: grid;
+grid-template-columns: 30% 40% 30%;
+
+.ombreright{
+flex-wrap: wrap;
+grid-column: 1;
+grid-row: 1;
+overflow: hidden;
+}
+h3{
+grid-column: 2;
+grid-row: 1;
+}
+.ombreleft{
+grid-column: 3;
+grid-row: 1;
+overflow: hidden;
+
+}
+
+}
+.plat{
+grid-column: 2;
+grid-row: 2;
+}
+.prix{
+grid-column: 3;
+grid-row: 2;
+
 }
 
 
+}
 
 @mixin mobile-menu {
     
     @media (max-width: 640px){
-  h1 {
-font-size: 32px;
+      .menu-ohmyfood{
+        display: grid;
+        grid-template-columns:  1fr;
+        grid-template-rows: 1fr 5fr 1fr;
+        grid-gap: 10px;
+      
+      }
+        
+    .box-menu{
+    
+      grid-column: 1;
+      grid-row: 2;
+          background-color: $bg-other;
+      display: grid;
+      grid-template-rows: repeat(5) 1fr ;
+      @include txt-box-menu2;
+  
+      .title{
+      grid-row: 1;
+      display: grid;
+      grid-template-rows: 50% 50%;
+      
+      img{
+      grid-row: 1;
+      margin: auto;
+      }
+      h3{
+      grid-column: 1;
+      grid-row: 2;
+      }
+      }
+      .entrée{
+      grid-row: 2;
+      @include grid-menu;
+      }
+      
+      .plat-de-résistance{
+      grid-row: 3;
+      @include grid-menu;
+      }
+      .dessert {
+      grid-row: 4;
+      @include grid-menu;
+      }
+      
+      .fin-maquette{
+      grid-row: 5;
+      text-align: center;
+      margin:0;
+      display: grid;
+      grid-template-columns: 40% 50%;
+      h3{
+      grid-column: 2;
+      }
+      img
+      {
+      grid-column: 1;
+      }
+      }
+      
+      }
+  
+  
+      h1 {
+font-size: 50px;
   }
+footer{
+grid-template-columns: 100%;
+grid-template-rows: 50% 50%;
+row-gap: 20px;
+display: grid;
+.contact{
+  grid-row:1;
+  grid-column: 1;
+}
+.legal{
+grid-row: 2;
+grid-column: 1;
+
+}
+
+  p{
+    font-size: 30px;
+    margin: 15px 0px;
+}
+}
+  
+
+  .menu{
+grid-template-columns: 100%;
+grid-template-rows: 1fr 1fr 1fr 1fr;
+margin: auto;
+  
         .menu-1{
-            grid-column: 100%;
+            grid-column: 1;
         grid-row: 1;
         }
         .menu-2{
-            grid-column: 100%;
+            grid-column: 1;
         grid-row: 2;
         }
         .menu-3{
-            grid-column: 100%;
+            grid-column: 1;
         grid-row: 3;
         }
         .menu-4{
-            grid-column: 100%;
+            grid-column: 1;
             grid-row: 4;
         }
     }
-    
+    .after{
+        grid-template-columns: 100%;
+        margin: auto;
+   .txt{
+    grid-column: 1;
+    h3{
+    font-size: 40px;
+   }
+   } 
+  }
+}
 }

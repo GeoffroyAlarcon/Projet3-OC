@@ -1,0 +1,71 @@
+
+header{
+    h1 
+{
+color: $logo;
+font-size: 70px;
+font-style: sherif;
+display: flex;
+margin: auto;
+}
+}
+
+
+.container{
+a{
+    text-decoration: none;
+}
+    h2{
+font-size: 50px;
+}
+h3{
+    font-size: 26px;
+}
+ h2,h3{
+margin:0;
+}
+.menu-2{
+    color: blue($color: black);
+}
+.menu-2{
+   h3 { 
+    background:  -webkit-linear-gradient( left, #d8852e, #9861ef);
+-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+}
+    h2{
+        color: #d5934b;
+
+        }
+}
+
+.menu-4{
+h3{
+
+background: -webkit-linear-gradient(left, $txt-menu4,#bfff7e);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+}
+}
+
+h2{
+text-align: center;
+}
+
+.box-menu{
+
+h2, h3{
+text-align: center;
+}
+
+}
+
+p{
+text-align: justify;
+}
+
+footer p {
+font-size: 40px;
+}
