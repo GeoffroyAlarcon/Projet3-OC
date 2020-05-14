@@ -1,83 +1,15 @@
 .container{
-    margin:0;
-    display: flex;
-flex-direction: column;
+    max-width: 60%;
+ text-align: center;
+margin: auto;
+
+}
+.titremenu{
+  
+    padding: 20px;
+    margin: auto;
+    }
+
+body{
 @include mobile-menu;
-
-}
-
-
-.menu{
-display: grid;
-grid-template-columns:  20% 27% 6% 27% 20%;
-grid-gap: 10px;
-grid-template-rows: 600px 600px;
-height: 100%;
-
-}
-.menu-1{
-  grid-column:2;
-    grid-row: 1;
-    background-color: $bg-menu1;
-    @include box-menu;
-   .titre{
-    padding: 20% 0px;
-    }
-
- }
-.menu-2{
-background-color: $bg-other;
-grid-column: 4;
-grid-row: 1;
-@include box-menu;
- h2{
-    color: #d5934b;
-    }
-}
-
-.menu-3{
-    background-color: $bg-other;
-    grid-column: 2; 
-    grid-row: 2;
-    @include box-menu;
-color: $txt-menu3;
-}
-
-
-.menu-4{
-    background-color: $bg-other;
-    grid-column:4;
-    grid-row: 2;
-    @include box-menu;
-    color: $txt-menu4;
-}
-.titre{
-    padding: 50% 0px;
-    height: 100%;
-text-align: center;
-}
-
-.after{
-    display: grid;
-    grid-template-columns: 30% 40% 30%;
-    grid-gap: 10px;
-    grid-template-rows: 30pw;
-   
-    
-    >.txt{
-    color: $logo;
-    background-color: $vertheader;
-    text-transform: uppercase;
-    border-radius: 50px;
-    grid-column: 2;
-    grid-row: 1;
-margin: 20px 0px;
-padding: 0;
-
-h3{
-font-size: 50px;
-text-align: center;
-}
-}
-    
 }

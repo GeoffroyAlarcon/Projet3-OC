@@ -2,19 +2,19 @@
 @import "./utils/functions";
 @import "./utils/mixins";
 @import "./utils/extensions";
-
+@import"./utils/kayframes";
 @import "./base/base";
 @import "./base/typography";
 
 @import "./composents/buttons";
 @import"./composents/img";
 @import "./layout/header";
-@import "./layout/nav";
 @import "./layout/container";
-@import "./layout/form";
+@import "./layout/main";
 @import"./layout/footer";
 @import"./layout/box_menu";
 @import"./page/menu1";
 @import"./page/menu2";
 @import"./page/menu3";
 @import"./page/menu4";
+@import"./layout/accueil";

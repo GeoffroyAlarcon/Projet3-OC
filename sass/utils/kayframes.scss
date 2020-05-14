@@ -1,0 +1,20 @@
+@keyframes headshake {
+    25% {
+        // entièrement à droite
+        transform: translateX($shake-intensity);
+    }
+    75% {
+        // entièrement à gauche
+        transform: translateX($shake-intensity * -1);
+    }
+}
+
+
+@keyframes points{
+    from {
+        transform: scaleX(0);   
+    }
+    to {
+        transform: scaleX(1);
+    }
+}

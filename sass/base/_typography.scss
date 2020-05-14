@@ -1,4 +1,8 @@
 
+  @font-face{
+    font-family: "Questa-Regular";
+    src: url("font/Questa-Regular.otf")
+  }
 header{
     h1 
 {
@@ -12,14 +16,18 @@ margin: auto;
 
 
 .container{
-a{
+    p{
+        text-align: justify;
+        }
+
+    a{
     text-decoration: none;
 }
     h2{
-font-size: 50px;
+font-size: 32px;
 }
 h3{
-    font-size: 26px;
+    font-size: 26px; 
 }
  h2,h3{
 margin:0;
@@ -50,9 +58,6 @@ background: -webkit-linear-gradient(left, $txt-menu4,#bfff7e);
 }
 }
 
-h2{
-text-align: center;
-}
 
 .box-menu{
 
@@ -62,10 +67,17 @@ text-align: center;
 
 }
 
-p{
-text-align: justify;
-}
+
 
 footer p {
 font-size: 40px;
+}
+
+.fin-maquette{
+h3{
+display: flex;
+img{
+    width: 50px;
+}
+}
 }

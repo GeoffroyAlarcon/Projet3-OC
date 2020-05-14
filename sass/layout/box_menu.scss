@@ -1,58 +1,46 @@
 
-.menu-ohmyfood{
-    display: grid;
-    grid-template-columns: 10% 80% 10%;
-    grid-template-rows: 96px 1000px 70px;
-    grid-gap: 10px;
-    
-.titremenu{
-grid-row: 1;
-grid-column: 2;
-padding: 0;
-margin: auto;
-}
+
+
+
+
+
     .box-menu{
-        box-shadow: 1px -1px 4px 0px #000000;
-    grid-column: 2;
+        box-shadow: 0px 1px 7px 0px #CFCFCF;
+    grid-column: 1;
     grid-row: 2;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-
-
-}
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
+grid-template-columns: 5% 90% 5%;
+height: 1030px;
     .title{
     grid-row: 1;
-    margin: auto;
+    grid-column: 2;
+    margin:auto;
     }
+
+   .grid-menu{
+    @include grid-menu;
+   } 
     .entrée{
     grid-row: 2;
-    @include grid-menu;
+    grid-column: 2;
     }
     
     .plat-de-résistance{
     grid-row: 3;
-    @include grid-menu;
-    }
+    grid-column: 2;
+    
+}
     .dessert {
     grid-row: 4;
-    @include grid-menu;
-    }
-    
-    .fin-maquette{
-    grid-row: 5;
-    text-align: center;
-    margin:0;
-    display: grid;
-    grid-template-columns: 40% 50%;
-    h3{
-    grid-column: 2;
-    }
-    img
-    {
-    grid-column: 1;
-    }
-    }
+    grid-column: 2; 
 }
+    .fin-maquette{
+    grid-row:5;
+    grid-column: 2;
+
+    }
     
-    
-    
+
+
+    }

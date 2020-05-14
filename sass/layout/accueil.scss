@@ -1,0 +1,96 @@
+
+.accueil{
+    display: grid;
+    grid-template-columns:  45% 10% 45%;
+    grid-gap: 70px;
+    grid-template-rows: 1fr 1fr;
+    height: 100%;
+
+    .menu-anim{
+cursor: pointer;
+position: relative;
+transition: all  250ms ease-in-out;
+&:hover {
+    transform: scale(1.2) ;
+    opacity: 0.50;
+    }
+        
+ .titre{
+        margin: auto;
+        }
+}
+    
+    .menu-1{
+      grid-column:1;
+        grid-row: 1;
+        background-color: $bg-menu1;
+     display: flex; 
+    
+    }
+    .menu-2{
+    background-color: $bg-other;
+    grid-column: 3;
+    grid-row: 1;
+    display: flex;
+     h2{
+        color: #d5934b;
+        }
+    }
+    
+    .menu-3{
+        background-color: $bg-other;
+        grid-column: 1; 
+        grid-row: 2;
+    color: $txt-menu3;
+    display: flex;
+    font-style: italic;
+    }
+    
+    
+    .menu-4{
+        background-color: $bg-other;
+        grid-column:3;
+        grid-row: 2;
+        display: flex;
+        color: $txt-menu4;
+        font-style: italic;
+    }
+    
+    .box-menu{
+    @include box-menu;
+    }
+    
+    .titre{
+       margin: auto;
+    text-align: center;
+    }
+    }
+    
+    
+    .after{
+        color: $logo;
+        background-color: $vertheader;
+       max-width: 50%;
+       margin: auto;
+       border-radius: 10px;
+       cursor: pointer;
+
+      
+       &:hover{
+
+            & > .point {
+            width: 17px;
+                animation-name: petitPoints;
+                animation-duration: 1000ms;
+            }   
+        }
+    
+       
+    h3{
+    font-size: 50px;
+    text-align: center;
+  }
+    
+  
+
+}
