@@ -4,21 +4,29 @@
     grid-template-columns:  50%  50%;
     grid-gap: 70px;
     grid-template-rows: 1fr 1fr;
-    height:  1000px;
+    height:  1150px;
 
+.shadow{
+    box-shadow: 0px 1px 7px 0px #CFCFCF;
+
+}
     .menu-anim{
 cursor: pointer;
 position: relative;
 transition: all  250ms ease-in-out;
+
 &:hover {
     transform: scale(1.2) ;
     opacity: 0.50;
     }
-        
+
+    
+    
  .titre{
         margin: auto;
         }
 }
+
     
     .menu-1{
       grid-column:1;
@@ -43,7 +51,6 @@ transition: all  250ms ease-in-out;
         grid-row: 2;
     color: $txt-menu3;
     display: flex;
-    font-style: italic;
     }
     
     

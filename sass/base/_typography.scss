@@ -29,9 +29,7 @@ font-size: 32px;
 h3{
     font-size: 26px; 
 }
- h2,h3{
-margin:0;
-}
+
 .menu-2{
     color: blue($color: black);
 }
@@ -40,6 +38,7 @@ margin:0;
     background:  -webkit-linear-gradient( left, #d8852e, #9861ef);
 -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;  
+    font-style: italic;
 }
     h2{
         color: #d5934b;
@@ -53,6 +52,7 @@ h3{
 background: -webkit-linear-gradient(left, $txt-menu4,#bfff7e);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
+font-style: italic;;
 }
 
 }

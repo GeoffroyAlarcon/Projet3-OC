@@ -46,9 +46,6 @@ header h1 {
 .container h3 {
   font-size: 26px;
 }
-.container h2, .container h3 {
-  margin: 0;
-}
 .container .menu-2 {
   color: 0;
 }
@@ -56,6 +53,7 @@ header h1 {
   background: -webkit-linear-gradient(left, #d8852e, #9861ef);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-style: italic;
 }
 .container .menu-2 h2 {
   color: #d5934b;
@@ -64,6 +62,7 @@ header h1 {
   background: -webkit-linear-gradient(left, #72bf56, #bfff7e);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-style: italic;
 }
 
 .box-menu h2, .box-menu h3 {
@@ -109,6 +108,7 @@ header .logo img {
   max-width: 700px;
   margin: auto;
   text-align: center;
+  padding: 20px 0;
 }
 .container a:visited {
   text-decoration: none;
@@ -486,7 +486,10 @@ footer .containerfooter .contact:hover {
   grid-template-columns: 50% 50%;
   grid-gap: 70px;
   grid-template-rows: 1fr 1fr;
-  height: 1000px;
+  height: 1150px;
+}
+.accueil .shadow {
+  box-shadow: 0px 1px 7px 0px #CFCFCF;
 }
 .accueil .menu-anim {
   cursor: pointer;
@@ -521,7 +524,6 @@ footer .containerfooter .contact:hover {
   grid-row: 2;
   color: #6cb2f9;
   display: flex;
-  font-style: italic;
 }
 .accueil .menu-4 {
   background-color: #fff5fe;
