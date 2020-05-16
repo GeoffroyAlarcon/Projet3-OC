@@ -484,7 +484,7 @@ footer .containerfooter .contact:hover {
 .accueil {
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-gap: 20px;
+  grid-gap: 70px;
   grid-template-rows: 1fr 1fr;
   height: 1000px;
 }
