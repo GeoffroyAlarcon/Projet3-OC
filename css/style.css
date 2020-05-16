@@ -110,6 +110,10 @@ header .logo img {
   margin: auto;
   text-align: center;
 }
+.container a:visited {
+  text-decoration: none;
+  color: inherit;
+}
 
 .titremenu {
   padding: 20px;
@@ -349,32 +353,30 @@ footer {
   background-color: #579c87;
   color: #fdcb46;
   padding: 0px;
-  display: flex;
-  flex-direction: row;
 }
 footer p {
-  display: block;
   font-size: 30px;
-  margin: 20px;
 }
-footer .container {
+footer .containerfooter {
   display: flex;
+  margin: auto;
 }
-footer .container .legal {
+footer .containerfooter .legal {
   cursor: pointer;
   transition: all 482ms ease-out;
-  text-align: left;
+  align-items: flex-start;
+  margin: auto;
 }
-footer .container .legal:hover {
+footer .containerfooter .legal:hover {
   animation: headshake 100ms cubic-bezier(0.4, 0.1, 0.6, 0.9);
 }
-footer .container .contact {
-  margin: auto;
-  text-align: right;
+footer .containerfooter .contact {
   cursor: pointer;
   transition: all 482ms ease-in-out;
+  align-items: flex-end;
+  margin: auto;
 }
-footer .container .contact:hover {
+footer .containerfooter .contact:hover {
   animation: headshake 100ms cubic-bezier(0.4, 0.1, 0.6, 0.9);
 }
 
