@@ -8,13 +8,14 @@
         transform: translateX($shake-intensity * -1);
     }
 }
-
-
-@keyframes points{
-    from {
-        transform: scaleX(0);   
-    }
+@keyframes ellipsis {
     to {
-        transform: scaleX(1);
+      width: 1.25em;    
     }
-}
+  }
+  
+  @-webkit-keyframes ellipsis {
+    to {
+      width: 1.25em;    
+    }
+  }

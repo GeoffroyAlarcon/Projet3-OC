@@ -1,8 +1,8 @@
 
 .accueil{
     display: grid;
-    grid-template-columns:  45% 10% 45%;
-    grid-gap: 70px;
+    grid-template-columns:  50%  50%;
+    grid-gap: 20px;
     grid-template-rows: 1fr 1fr;
     height: 100%;
 
@@ -29,7 +29,7 @@ transition: all  250ms ease-in-out;
     }
     .menu-2{
     background-color: $bg-other;
-    grid-column: 3;
+    grid-column: 2;
     grid-row: 1;
     display: flex;
      h2{
@@ -49,7 +49,7 @@ transition: all  250ms ease-in-out;
     
     .menu-4{
         background-color: $bg-other;
-        grid-column:3;
+        grid-column:2;
         grid-row: 2;
         display: flex;
         color: $txt-menu4;
@@ -70,24 +70,23 @@ transition: all  250ms ease-in-out;
     .after{
         color: $logo;
         background-color: $vertheader;
-       max-width: 50%;
+       max-width: 600px;
        margin: auto;
        border-radius: 10px;
        cursor: pointer;
+   
 
-      
-       &:hover{
+  h3{
+      font-size:30px;
+       &::after{
+        overflow: hidden;
+        display: inline-block;
 
-            & > .point {
-            width: 17px;
-                animation-name: petitPoints;
-                animation-duration: 1000ms;
-            }   
-        }
-    
-       
-    h3{
-    font-size: 50px;
+        vertical-align: bottom;
+         -webkit-animation: ellipsis steps(4,end) 900ms infinite;
+        content: "\2026"; /* ascii code for the ellipsis character */
+width:0px;
+       }   
     text-align: center;
   }
     
