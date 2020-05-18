@@ -88,18 +88,18 @@ img {
 
 header {
   background-color: #579c87;
-  padding: 40px 0px;
+  padding: 20px 0px;
 }
 header .logo {
   margin: auto;
-  width: 25%;
+  width: 400px;
 }
 header .logo img {
   margin: 20px;
 }
 
 .container {
-  max-width: 700px;
+  max-width: 800px;
   margin: auto;
   text-align: center;
   padding: 20px 0;
@@ -170,164 +170,17 @@ header .logo img {
     max-width: 200px;
   }
   body .box-menu {
-    height: 925px;
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-columns: 1fr;
+    height: auto;
+    margin: 0 20px;
   }
-  body .box-menu .title {
-    grid-column: 1;
-    grid-row: 1;
-    display: grid;
-    width: 150px;
+  body .box-menu .orga-menu {
+    margin: 10px;
   }
-  body .box-menu .entrée {
-    grid-row: 2;
-    grid-column: 1;
-    display: grid;
-    grid-template-columns: 70% 20% 10%;
-    padding: 20px;
+  body .box-menu .orga-menu p {
+    font-size: 10px;
   }
-  body .box-menu .entrée .ombremenu1 {
-    grid-column: 1/3;
-    grid-row: 1;
-    display: grid;
-    grid-template-columns: 20% 60% 20%;
-  }
-  body .box-menu .entrée .ombremenu1:hover {
-    text-decoration: underline;
-  }
-  body .box-menu .entrée .ombremenu1 .ombreright {
-    flex-wrap: wrap;
-    grid-column: 1;
-    grid-row: 1;
-    overflow: hidden;
-    margin: auto;
-  }
-  body .box-menu .entrée .ombremenu1 h3 {
-    grid-column: 2;
-    grid-row: 1;
-  }
-  body .box-menu .entrée .ombremenu1 .ombreleft {
-    grid-column: 3;
-    grid-row: 1;
-    overflow: hidden;
-    margin: auto;
-  }
-  body .box-menu .entrée .plat {
-    grid-column: 1;
-    grid-row: 2;
-  }
-  body .box-menu .entrée .prix {
-    grid-column: 3;
-    grid-row: 2;
-  }
-  body .box-menu .entrée p {
-    margin: auto;
-  }
-  body .box-menu .plat-de-résistance {
-    grid-row: 3;
-    grid-column: 1;
-    display: grid;
-    grid-template-columns: 70% 20% 10%;
-    padding: 20px;
-  }
-  body .box-menu .plat-de-résistance .ombremenu1 {
-    grid-column: 1/3;
-    grid-row: 1;
-    display: grid;
-    grid-template-columns: 20% 60% 20%;
-  }
-  body .box-menu .plat-de-résistance .ombremenu1:hover {
-    text-decoration: underline;
-  }
-  body .box-menu .plat-de-résistance .ombremenu1 .ombreright {
-    flex-wrap: wrap;
-    grid-column: 1;
-    grid-row: 1;
-    overflow: hidden;
-    margin: auto;
-  }
-  body .box-menu .plat-de-résistance .ombremenu1 h3 {
-    grid-column: 2;
-    grid-row: 1;
-  }
-  body .box-menu .plat-de-résistance .ombremenu1 .ombreleft {
-    grid-column: 3;
-    grid-row: 1;
-    overflow: hidden;
-    margin: auto;
-  }
-  body .box-menu .plat-de-résistance .plat {
-    grid-column: 1;
-    grid-row: 2;
-  }
-  body .box-menu .plat-de-résistance .prix {
-    grid-column: 3;
-    grid-row: 2;
-  }
-  body .box-menu .plat-de-résistance p {
-    margin: auto;
-  }
-  body .box-menu .dessert {
-    grid-column: 1;
-    grid-row: 4;
-    display: grid;
-    grid-template-columns: 70% 20% 10%;
-    padding: 20px;
-  }
-  body .box-menu .dessert .ombremenu1 {
-    grid-column: 1/3;
-    grid-row: 1;
-    display: grid;
-    grid-template-columns: 20% 60% 20%;
-  }
-  body .box-menu .dessert .ombremenu1:hover {
-    text-decoration: underline;
-  }
-  body .box-menu .dessert .ombremenu1 .ombreright {
-    flex-wrap: wrap;
-    grid-column: 1;
-    grid-row: 1;
-    overflow: hidden;
-    margin: auto;
-  }
-  body .box-menu .dessert .ombremenu1 h3 {
-    grid-column: 2;
-    grid-row: 1;
-  }
-  body .box-menu .dessert .ombremenu1 .ombreleft {
-    grid-column: 3;
-    grid-row: 1;
-    overflow: hidden;
-    margin: auto;
-  }
-  body .box-menu .dessert .plat {
-    grid-column: 1;
-    grid-row: 2;
-  }
-  body .box-menu .dessert .prix {
-    grid-column: 3;
-    grid-row: 2;
-  }
-  body .box-menu .dessert p {
-    margin: auto;
-  }
-  body .box-menu .prix p {
-    padding: 8px 0;
-  }
-  body .box-menu .fin-maquette {
-    grid-row: 5;
-    grid-column: 1;
-    text-align: center;
-    display: grid;
-    grid-template-columns: 40% 50%;
-  }
-  body .box-menu .fin-maquette h3 {
-    grid-column: 2;
-  }
-  body .box-menu .fin-maquette img {
-    grid-column: 1;
+  body .box-menu .orga-menu .prix p {
+    padding: 0px;
   }
 }
 
@@ -352,7 +205,7 @@ footer .containerfooter .legal {
   cursor: pointer;
   transition: all 482ms ease-out;
   align-items: flex-start;
-  margin: auto;
+  margin: 0 40px;
 }
 footer .containerfooter .legal:hover {
   animation: headshake 100ms cubic-bezier(0.4, 0.1, 0.6, 0.9);
@@ -361,7 +214,9 @@ footer .containerfooter .contact {
   cursor: pointer;
   transition: all 482ms ease-in-out;
   align-items: flex-end;
-  margin: auto;
+}
+footer .containerfooter .contact p {
+  text-align: right;
 }
 footer .containerfooter .contact:hover {
   animation: headshake 100ms cubic-bezier(0.4, 0.1, 0.6, 0.9);
@@ -373,15 +228,11 @@ footer .containerfooter .contact:hover {
 }
 
 .box-menu {
-  grid-column: 1;
-  grid-row: 2;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-columns: 10% 80% 10%;
-  height: 900x;
+  height: auto;
   display: flex;
   flex-direction: column;
-  box-shadow: 1px -1px 4px 0px grey;
-  margin: 30px 0px;
+  box-shadow: 1px -2px 10px 0px #d8d4d4;
+  margin: 0px 30px;
 }
 .box-menu h1 {
   font-size: 50px;
@@ -389,71 +240,65 @@ footer .containerfooter .contact:hover {
 .box-menu p {
   font-size: 14px;
 }
-.box-menu .title {
-  grid-row: 1;
-  grid-column: 2;
-  margin: auto;
-}
 .box-menu .title img {
   width: 150px;
 }
-.box-menu .grid-menu {
-  display: grid;
-  grid-template-columns: 70% 20% 10%;
-  padding: 20px;
+.box-menu .orga-menu {
+  flex-wrap: wrap;
+  margin: 10px 40px;
 }
-.box-menu .grid-menu .ombremenu1 {
-  grid-column: 1/3;
-  grid-row: 1;
+.box-menu .orga-menu .ombremenu1 {
+  width: 100%;
   display: grid;
-  grid-template-columns: 20% 60% 20%;
+  grid-template-columns: 30% 40% 30%;
 }
-.box-menu .grid-menu .ombremenu1:hover {
+.box-menu .orga-menu .ombremenu1:hover {
   text-decoration: underline;
 }
-.box-menu .grid-menu .ombremenu1 .ombreright {
+.box-menu .orga-menu .ombremenu1 .ombreright {
   flex-wrap: wrap;
   grid-column: 1;
   grid-row: 1;
   overflow: hidden;
   margin: auto;
 }
-.box-menu .grid-menu .ombremenu1 h3 {
+.box-menu .orga-menu .ombremenu1 h3 {
   grid-column: 2;
   grid-row: 1;
 }
-.box-menu .grid-menu .ombremenu1 .ombreleft {
+.box-menu .orga-menu .ombremenu1 .ombreleft {
   grid-column: 3;
   grid-row: 1;
   overflow: hidden;
   margin: auto;
 }
-.box-menu .grid-menu .plat {
-  grid-column: 1;
-  grid-row: 2;
-}
-.box-menu .grid-menu .prix {
-  grid-column: 3;
-  grid-row: 2;
-}
-.box-menu .grid-menu p {
+.box-menu .orga-menu .plat {
+  width: 70%;
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+}
+.box-menu .orga-menu .prix {
+  width: 30%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.box-menu .orga-menu .prix p {
+  text-align: right;
+  padding: 0 40px;
 }
 .box-menu .entrée {
-  grid-row: 2;
-  grid-column: 2;
+  display: flex;
 }
 .box-menu .plat-de-résistance {
-  grid-row: 3;
-  grid-column: 2;
+  display: flex;
 }
 .box-menu .dessert {
-  grid-row: 4;
-  grid-column: 2;
+  display: flex;
 }
 .box-menu .fin-maquette {
-  grid-row: 5;
-  grid-column: 2;
   font-size: 32px;
   margin: auto;
   display: flex;
@@ -465,14 +310,12 @@ footer .containerfooter .contact:hover {
 
 .enchantée {
   background-color: #fcdfdb;
-  display: grid;
 }
 
 .chic {
   background: -webkit-linear-gradient(top, #d8852e, #9861ef);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  display: grid;
 }
 .chic h2 {
   background: -webkit-linear-gradient(left, #d8852e, #9861ef);

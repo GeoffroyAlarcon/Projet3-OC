@@ -1,9 +1,4 @@
-@mixin box-menu {
-display: flex;
-flex-direction: column;
-box-shadow: 1px -1px 4px 0px  grey;
-margin: 30px 0px;
-}
+
 
 @mixin txt-box-menu2{
   background: -webkit-linear-gradient( top, #d8852e, #9861ef);
@@ -12,16 +7,15 @@ margin: 30px 0px;
 
 }
 
-@mixin grid-menu {
-    display: grid;
-grid-template-columns: 70% 20% 10%;
-padding: 20px;
+@mixin orga-menu {
+  flex-wrap: wrap;
+  margin: 10px 40px;
 .ombremenu1
 {
-grid-column: 1/3;
-grid-row:1; 
+
+  width: 100%;
 display: grid;
-grid-template-columns: 20% 60% 20%;
+grid-template-columns: 30% 40% 30%;
 &:hover{
   text-decoration: underline;
   }
@@ -47,18 +41,25 @@ margin: auto;
 
 }
 .plat{
-grid-column: 1;
-grid-row: 2;
+width: 70%;
+margin:auto;
+display: flex;
+flex-direction: column;
+text-align: justify;
 
 }
 .prix{
-grid-column: 3;
-grid-row: 2;
+width: 30%;
+margin:auto;
+display: flex;
+flex-direction: column;
+p{
+text-align: right;
+padding: 0 40px;
+}
 
 }
-p {
-margin: auto;
-}
+
 
 }
 
@@ -135,58 +136,20 @@ footer{
         
     .box-menu{
     
-    height: 925px;
-      display: grid;
-      grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
-      grid-template-columns: 1fr;
-    
+    height: auto;
+    margin: 0 20px;
+  .orga-menu{
+margin:10px;
   
-      .title{
-        grid-column: 1;
-      grid-row: 1;
-      display: grid;
-      width: 150px;
-      }
-      .entrée{
-      grid-row: 2;
-      grid-column: 1;
-      @include grid-menu;
-      }
-      
-      .plat-de-résistance{
-      grid-row: 3;
-      grid-column: 1;
-      @include grid-menu;
-      }
-      .dessert {
-        grid-column: 1;
-      grid-row: 4;
-      @include grid-menu;
-      }
-     
-      
-     .prix{
-       p{
-         padding: 8px 0;
-       }
-     } 
-      .fin-maquette{
-      grid-row: 5;
-      grid-column: 1;
-      text-align: center;
-      display: grid;
-      grid-template-columns: 40% 50%;
-      h3{
-      grid-column: 2;
-      }
-      img
-      {
-      grid-column: 1;
-      }
-      }
-      
-      }
-  
- 
-    }
+  p{
+  font-size: 10px;
+}
+.prix{
+  p{
+  padding: 0px;
   }
+}
+  }
+}
+    } 
+}

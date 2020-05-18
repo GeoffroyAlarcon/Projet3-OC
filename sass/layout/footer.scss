@@ -18,7 +18,7 @@ margin: auto;
 cursor: pointer;
 transition: all 482ms ease-out;
 align-items: flex-start;
-margin: auto;
+margin: 0 40px;
 
 &:hover {
     animation: headshake 100ms cubic-bezier(.4,.1,.6,.9);
@@ -29,7 +29,10 @@ margin: auto;
 cursor: pointer;
 transition: all 482ms ease-in-out;
 align-items: flex-end;
-margin: auto;
+
+p{
+text-align: right;
+}
 
 &:hover {
     animation: headshake 100ms cubic-bezier(.4,.1,.6,.9);
