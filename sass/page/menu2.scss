@@ -1,6 +1,7 @@
 
 .chic{
 @include txt-box-menu2;
+display: grid;
 
 h2{
 background: -webkit-linear-gradient( left, #d8852e, #9861ef);

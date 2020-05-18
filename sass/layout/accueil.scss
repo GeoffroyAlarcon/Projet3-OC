@@ -63,9 +63,16 @@ transition: all  250ms ease-in-out;
         font-style: italic;
     }
     
-    .box-menu{
-    @include box-menu;
-    }
+   
+    h1 {
+        font-size: 50px;
+          }
+        
+          p{
+            font-size: 14px;
+        
+        }
+        
     
     .titre{
        margin: auto;
@@ -81,10 +88,11 @@ transition: all  250ms ease-in-out;
        margin: auto;
        border-radius: 10px;
        cursor: pointer;
+       
    
 
-  h3{
-      font-size:30px;
+  h2{
+
        &::after{
         overflow: hidden;
         display: inline-block;
