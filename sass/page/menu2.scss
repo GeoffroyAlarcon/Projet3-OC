@@ -1,10 +1,6 @@
 
 .chic{
 @include txt-box-menu2;
-
-h2{
-background: -webkit-linear-gradient( left, #d8852e, #9861ef);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent; 
-}
+body{
+background: #fff5fe;}
 }

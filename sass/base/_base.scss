@@ -1,5 +1,10 @@
 body{
     margin: 0;
   font-family:"Questa-Regular";
- 
+  position: relative;
+padding:0;
 }
+ body, html{
+  height: 100%;
+  min-height: 100%;
+ }

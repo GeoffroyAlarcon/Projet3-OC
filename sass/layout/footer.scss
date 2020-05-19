@@ -1,38 +1,35 @@
 footer{
     background-color: $vertheader;
     color: $logo;
-    padding: 0px;
-
-
-
+position: fixed;
+bottom: 0em;
+    width: 100%;
+    padding-top: 0px;
+}
 p{
-
     font-size: 30px;
 }
 .containerfooter{
 display: flex;
-margin: auto;
+justify-content: space-between;
+margin: 0 50px;
 
 
     .legal{
-cursor: pointer;
-transition: all 482ms ease-out;
-align-items: flex-start;
-margin: 0 40px;
+display: flex;
 
+    cursor: pointer;
+transition: all 482ms ease-out;
 &:hover {
     animation: headshake 100ms cubic-bezier(.4,.1,.6,.9);
 }
 }
 
-.contact{
-cursor: pointer;
-transition: all 482ms ease-in-out;
-align-items: flex-end;
 
-p{
-text-align: right;
-}
+.contact{
+
+display: flex;
+transition: all 482ms ease-out;
 
 &:hover {
     animation: headshake 100ms cubic-bezier(.4,.1,.6,.9);
@@ -40,4 +37,8 @@ text-align: right;
     
 }
 }
+
+a{
+text-decoration: none;
+color: inherit;
 }

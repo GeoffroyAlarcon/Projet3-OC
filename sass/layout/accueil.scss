@@ -5,9 +5,11 @@
     grid-gap: 70px;
     grid-template-rows: 1fr 1fr;
     height:  1150px;
-
+img{
+width: 200px;
+}
 .shadow{
-    box-shadow: 0px 1px 7px 0px #CFCFCF;
+    box-shadow: 0px 1px 7px 0px #f1f1f1;
 
 }
     .menu-anim{
@@ -46,21 +48,21 @@ transition: all  250ms ease-in-out;
     }
     
     .menu-3{
-        background-color: $bg-other;
         grid-column: 1; 
         grid-row: 2;
     color: $txt-menu3;
     display: flex;
+    background-color: #f9f9f9;
     }
     
     
     .menu-4{
-        background-color: $bg-other;
+        
         grid-column:2;
         grid-row: 2;
         display: flex;
-        color: $txt-menu4;
         font-style: italic;
+        background-color: #fdfffd;
     }
     
    
@@ -98,7 +100,7 @@ transition: all  250ms ease-in-out;
         display: inline-block;
 
         vertical-align: bottom;
-         -webkit-animation: ellipsis steps(4,end) 900ms infinite;
+         -webkit-animation: ellipsis steps(4,end) 1s infinite;
         content: "\2026"; /* ascii code for the ellipsis character */
 width:0px;
        }   
