@@ -4,12 +4,13 @@
     grid-template-columns:  50%  50%;
     grid-gap: 70px;
     grid-template-rows: 1fr 1fr;
-    height:  1150px;
+    height:  1250px;
+ padding: 70px 0;
 img{
 width: 200px;
 }
 .shadow{
-    box-shadow: 0px 1px 7px 0px #f1f1f1;
+    box-shadow: 0px 1px 7px 0px #b8b295;
 
 }
     .menu-anim{
@@ -35,7 +36,9 @@ transition: all  250ms ease-in-out;
         grid-row: 1;
         background-color: $bg-menu1;
      display: flex; 
-    
+    img{
+    width: 50px;
+    }
     }
     .menu-2{
     background-color: $bg-other;
@@ -53,6 +56,14 @@ transition: all  250ms ease-in-out;
     color: $txt-menu3;
     display: flex;
     background-color: #f9f9f9;
+   h2{
+    background:  -webkit-linear-gradient(left, #113ee1,#bcd9f2 );
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+p{
+color: #0887fb;
+}
     }
     
     
@@ -63,17 +74,17 @@ transition: all  250ms ease-in-out;
         display: flex;
         font-style: italic;
         background-color: #fdfffd;
+    h2{
+        background:  -webkit-linear-gradient(left, #45993d,#bfff7e );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
+p {
+color: #72bf56;
+}    
+}
     
-   
-    h1 {
-        font-size: 50px;
-          }
-        
-          p{
-            font-size: 14px;
-        
-        }
+
         
     
     .titre{
@@ -86,15 +97,17 @@ transition: all  250ms ease-in-out;
     .after{
         color: $logo;
         background-color: $vertheader;
-       max-width: 600px;
+       max-width: 400px;
        margin: auto;
+       display: flex;
        border-radius: 10px;
        cursor: pointer;
-       
+    height: 80px;
    
 
-  h2{
-
+  p{
+font-size: 35px;
+margin: auto;
        &::after{
         overflow: hidden;
         display: inline-block;

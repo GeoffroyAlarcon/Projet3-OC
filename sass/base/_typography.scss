@@ -1,8 +1,18 @@
 
   @font-face{
     font-family: "Questa-Regular";
-    src: url("font/Questa-Regular.otf")
+    src: url("font/Questa-Regular.otf");
   }
+
+    @font-face{
+font-family: "Cultura";
+src: url("font/Cultura.otf");}
+
+@font-face{
+font-family: "FauxCRA";
+src: url("font/FauxCRA.otf");
+}
+  
 header{
     h1 
 {
@@ -23,24 +33,23 @@ main{
     a{
     text-decoration: none;
 }
-    h2{
-font-size: 32px;
+
+.accueil{
+p{
+text-align: center;
 }
-h3{
-    font-size: 23px; 
 }
 
-.menu-2{
-    color: blue($color: black);
+
 }
 .menu-2{
-   h3 { 
+   h2 { 
     background:  -webkit-linear-gradient( left, #d8852e, #9861ef);
 -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;  
     font-style: italic;
 }
-    h2{
+    p{
         color: #d5934b;
 
         }
@@ -56,12 +65,12 @@ font-style: italic;;
 }
 
 }
-}
+
 
 
 .box-menu{
 
-h2, h3{
+h2{
 text-align: center;
 }
 
@@ -73,3 +82,26 @@ footer p {
 font-size: 32px;
 }
 
+h2{
+font-size: 24px;
+font-weight: bolder;
+margin: auto;
+text-align: justify;
+}
+
+H1{
+text-align: center;
+margin: auto;
+font-weight: bold;
+font-size: 50px;
+}
+
+
+.accueil{
+p{
+font-size: 35px;
+}
+h2{
+font-size: 30px;
+}
+}

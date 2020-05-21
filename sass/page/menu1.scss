@@ -1,10 +1,17 @@
 .enchantée{
     background-color: $bg-menu1;
+
+    h2,h3{
+    font-family: "FauxCRA";
+    }
+
 h3{
 font-weight: 300;
 }
 h2, .finmaquette h3{
-font-weight: 800;
+font-weight: bold;
 }
-
+.box-menu h1{
+font-weight: bolder;
+}
 }
