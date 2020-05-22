@@ -74,7 +74,16 @@ font-weight: bolder;
 }
 
 @mixin mobile-menu {
-    
+   
+@media( max-width: 1024px){
+.container{
+max-width: 600px;
+}
+.orga-menu{
+margin: auto;
+}
+
+}
     @media (max-width: 640px){
       .container{
         max-width: 100%;

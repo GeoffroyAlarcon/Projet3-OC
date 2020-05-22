@@ -1,7 +1,17 @@
 
 .dégradéchic{
 @include txt-box-menu2;
+h1{
+font-family: "croissant"; 
+    background:  -webkit-linear-gradient( left, #d8852e, #9861ef);
+-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+}
+
+
 }
 .chic{
-background: #fff5fe;}
+background: #fff5fe;
+}
+
 

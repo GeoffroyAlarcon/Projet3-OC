@@ -1,10 +1,11 @@
 
+
 .accueil{
     display: grid;
     grid-template-columns:  50%  50%;
     grid-gap: 70px;
     grid-template-rows: 1fr 1fr;
-    height:  1250px;
+    height:  1150px;
  padding: 70px 0;
 img{
 width: 200px;
@@ -39,6 +40,12 @@ transition: all  250ms ease-in-out;
     img{
     width: 50px;
     }
+ h2{
+     font-family:"devonshire";
+ }
+p{
+font-family: "segoe";
+}
     }
     .menu-2{
     background-color: $bg-other;
@@ -47,7 +54,12 @@ transition: all  250ms ease-in-out;
     display: flex;
      h2{
         color: #d5934b;
+        font-family:"croissant";
+        font-size:24px;
         }
+    p{
+    font-family:"charis";
+    }
     }
     
     .menu-3{
@@ -57,12 +69,15 @@ transition: all  250ms ease-in-out;
     display: flex;
     background-color: #f9f9f9;
    h2{
-    background:  -webkit-linear-gradient(left, #113ee1,#bcd9f2 );
+    font-family:"parisienne";
+    background: -webkit-linear-gradient(left, #113ee1,#bcd9f2 );
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
+
 }
 p{
 color: #0887fb;
+font-family:"comics";
 }
     }
     
@@ -78,9 +93,11 @@ color: #0887fb;
         background:  -webkit-linear-gradient(left, #45993d,#bfff7e );
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+        font-family: "kaushan";
     }
 p {
 color: #72bf56;
+font-family: "comics";
 }    
 }
     

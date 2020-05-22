@@ -41,6 +41,34 @@ body, html {
   font-family: "FauxCRA";
   src: url("font/FauxCRA.otf");
 }
+@font-face {
+  font-family: "Devonshire";
+  src: url("font/devonshire-Regular.ttf");
+}
+@font-face {
+  font-family: "segoe";
+  src: url("font/Segoe.ttf");
+}
+@font-face {
+  font-family: "croissant";
+  src: url("font/CroissantOne-Regular.ttf");
+}
+@font-face {
+  font-family: "charis";
+  src: url("font/CharisSILB.ttf");
+}
+@font-face {
+  font-family: "parisienne";
+  src: url("font/Parisienne.ttf");
+}
+@font-face {
+  font-family: "comics";
+  src: url("NightShift-Demo.ttf");
+}
+@font-face {
+  font-family: "kaushan";
+  src: url("font/KaushanScript-Regular.ttf");
+}
 header h1 {
   color: #fdcb46;
   font-size: 70px;
@@ -81,11 +109,11 @@ main .accueil p {
 }
 
 footer p {
-  font-size: 32px;
+  font-size: 22px;
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bolder;
   margin: auto;
   text-align: justify;
@@ -95,14 +123,14 @@ H1 {
   text-align: center;
   margin: auto;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .accueil p {
-  font-size: 35px;
+  font-size: 30px;
 }
 .accueil h2 {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 img {
@@ -124,7 +152,7 @@ header .logo img {
 }
 
 .container {
-  max-width: 800px;
+  max-width: 700px;
   margin: auto;
   text-align: center;
   padding: 20px 0;
@@ -139,6 +167,14 @@ header .logo img {
   margin: auto;
 }
 
+@media (max-width: 1024px) {
+  body .container {
+    max-width: 600px;
+  }
+  body .orga-menu {
+    margin: auto;
+  }
+}
 @media (max-width: 640px) {
   body .container {
     max-width: 100%;
@@ -288,13 +324,12 @@ a {
   display: flex;
   flex-direction: column;
   box-shadow: 1px -2px 10px 0px #d8d4d4;
-  margin: 0px 50px;
 }
 .box-menu h1 {
-  font-size: 50px;
+  font-size: 32px;
 }
 .box-menu p {
-  font-size: 18px;
+  font-size: 14px;
 }
 .box-menu .title {
   margin: auto;
@@ -382,21 +417,27 @@ a {
 .enchantée {
   background-color: #fcdfdb;
 }
-.enchantée h2, .enchantée h3 {
-  font-family: "FauxCRA";
+.enchantée h1, .enchantée h2, .enchantée h3 {
+  font-family: "Devonshire";
+}
+.enchantée h1 {
+  font-size: 50px;
 }
 .enchantée h3 {
   font-weight: 300;
 }
-.enchantée h2, .enchantée .finmaquette h3 {
-  font-weight: bold;
-}
-.enchantée .box-menu h1 {
-  font-weight: bolder;
+.enchantée .fin-maquette h2 {
+  font-size: 30px;
 }
 
 .dégradéchic {
   background: -webkit-linear-gradient(top, #d8852e, #9861ef);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.dégradéchic h1 {
+  font-family: "croissant";
+  background: -webkit-linear-gradient(left, #d8852e, #9861ef);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -413,12 +454,14 @@ a {
   background: -webkit-linear-gradient(left, #113ee1, #bcd9f2);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-family: "parisienne";
 }
 
 .palette h1 {
   background: -webkit-linear-gradient(left, #45993d, #bfff7e);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-family: "kaushan";
 }
 
 article {
@@ -433,7 +476,7 @@ article {
   grid-template-columns: 50% 50%;
   grid-gap: 70px;
   grid-template-rows: 1fr 1fr;
-  height: 1250px;
+  height: 1150px;
   padding: 70px 0;
 }
 .accueil img {
@@ -463,6 +506,12 @@ article {
 .accueil .menu-1 img {
   width: 50px;
 }
+.accueil .menu-1 h2 {
+  font-family: "devonshire";
+}
+.accueil .menu-1 p {
+  font-family: "segoe";
+}
 .accueil .menu-2 {
   background-color: #fff5fe;
   grid-column: 2;
@@ -471,6 +520,11 @@ article {
 }
 .accueil .menu-2 h2 {
   color: #d5934b;
+  font-family: "croissant";
+  font-size: 24px;
+}
+.accueil .menu-2 p {
+  font-family: "charis";
 }
 .accueil .menu-3 {
   grid-column: 1;
@@ -480,12 +534,14 @@ article {
   background-color: #f9f9f9;
 }
 .accueil .menu-3 h2 {
+  font-family: "parisienne";
   background: -webkit-linear-gradient(left, #113ee1, #bcd9f2);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .accueil .menu-3 p {
   color: #0887fb;
+  font-family: "comics";
 }
 .accueil .menu-4 {
   grid-column: 2;
@@ -498,9 +554,11 @@ article {
   background: -webkit-linear-gradient(left, #45993d, #bfff7e);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-family: "kaushan";
 }
 .accueil .menu-4 p {
   color: #72bf56;
+  font-family: "comics";
 }
 .accueil .titre {
   margin: auto;

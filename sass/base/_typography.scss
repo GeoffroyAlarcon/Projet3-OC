@@ -12,6 +12,36 @@ src: url("font/Cultura.otf");}
 font-family: "FauxCRA";
 src: url("font/FauxCRA.otf");
 }
+
+@font-face {
+    font-family: "Devonshire";
+    src: url("font/devonshire-Regular.ttf");
+    }
+    @font-face{
+    font-family: "segoe";
+    src: url("font/Segoe.ttf");
+    }
+    @font-face{
+    font-family: "croissant";
+    src: url("font/CroissantOne-Regular.ttf");
+    }
+    @font-face{
+    font-family:"charis";
+    src: url("font/CharisSILB.ttf");
+    }
+    @font-face{
+    font-family: "parisienne";
+    src: url("font/Parisienne.ttf");
+    }
+    @font-face {
+    font-family:"comics";
+    src: url("NightShift-Demo.ttf");
+    }
+    @font-face{
+    font-family: "kaushan";
+    src: url("font/KaushanScript-Regular.ttf");
+    }
+    
   
 header{
     h1 
@@ -79,11 +109,11 @@ text-align: center;
 
 
 footer p {
-font-size: 32px;
+font-size: 22px;
 }
 
 h2{
-font-size: 24px;
+font-size: 20px;
 font-weight: bolder;
 margin: auto;
 text-align: justify;
@@ -93,15 +123,15 @@ H1{
 text-align: center;
 margin: auto;
 font-weight: bold;
-font-size: 50px;
+font-size: 40px;
 }
 
 
 .accueil{
 p{
-font-size: 35px;
+font-size: 30px;
 }
 h2{
-font-size: 30px;
+font-size: 25px;
 }
 }
