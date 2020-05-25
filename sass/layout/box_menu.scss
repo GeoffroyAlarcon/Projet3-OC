@@ -14,14 +14,17 @@ padding: 20px;
   flex-direction: column;
 box-shadow:  1px -2px 10px 0px  rgb(216, 212, 212);
 
-
- 
       h1 {
 font-size: 32px;
   }
 
+  h2{
+  font-family: "charis";
+  }
+
   p{
-    font-size: 14px;
+    font-size: 16px;
+    font-style: "comics";
 
 }
 
@@ -30,7 +33,7 @@ font-size: 32px;
     margin: auto;
 padding: 50px;
     img{
-    width: 100px;}
+    width: 80px;}
     }
 
    .orga-menu{
@@ -50,19 +53,17 @@ padding: 50px;
 display: flex;
       margin: auto;
     padding: 30px;
-h2{
-font-weight: bolder;
-
-
-}
     
 .imgfin{
-width: 60px;
+width: 50px;
 padding: 0 20px;
 }
 }
+}
 
-    
-
-
+.marginother{
+  .plat{
+    margin: 30px 50px;
     }
+}
+ 

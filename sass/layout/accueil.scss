@@ -2,10 +2,10 @@
 
 .accueil{
     display: grid;
-    grid-template-columns:  50%  50%;
+    grid-template-columns:  1fr 1fr;
     grid-gap: 70px;
     grid-template-rows: 1fr 1fr;
-    height:  1150px;
+    height:  1050px;
  padding: 70px 0;
 img{
 width: 200px;
@@ -125,7 +125,7 @@ font-family: "comics";
   p{
 font-size: 35px;
 margin: auto;
-       &::after{
+       &:after{
         overflow: hidden;
         display: inline-block;
         position: absolute;
