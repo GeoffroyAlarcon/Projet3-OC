@@ -80,12 +80,18 @@ font-weight: bolder;
 .container{
 max-width: 650px;
 h2{
-font-size: 20px;
+font-size: 26px;
 }}
-.accueil .menu-2 h2 {
-font-size: 16px;
+.accueil .menu-2 {
+  h2{
+font-size: 20px;
 }
-
+}
+.box-menu{
+h1{
+font-size: 40px;
+}
+}
 .orga-menu{
 margin: auto;
 }

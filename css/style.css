@@ -174,10 +174,13 @@ header .logo img {
     max-width: 650px;
   }
   body .container h2 {
-    font-size: 20px;
+    font-size: 26px;
   }
   body .accueil .menu-2 h2 {
-    font-size: 16px;
+    font-size: 20px;
+  }
+  body .box-menu h1 {
+    font-size: 40px;
   }
   body .orga-menu {
     margin: auto;
