@@ -81,8 +81,11 @@ font-weight: bolder;
 max-width: 650px;
 h2{
 font-size: 20px;
+}}
+.accueil .menu-2 h2 {
+font-size: 16px;
 }
-}
+
 .orga-menu{
 margin: auto;
 }
@@ -178,6 +181,11 @@ font-size: 20px;
   .plat{
   margin: auto;
   }
+  }
+  .titremenu{
+    p{
+  font-size: 20px;
+    }
   }
     .box-menu{
     

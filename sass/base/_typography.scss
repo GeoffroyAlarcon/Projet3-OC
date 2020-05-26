@@ -55,13 +55,19 @@ margin: auto;
 }
 
 
+.titremenu{
+p{
+font-size: 40px;
+font-family: "charis";
+}
+}
+
 main{
-    p{
-        text-align: justify;
-        }
 
     a{
     text-decoration: none;
+    margin: auto;
+    display: flex;
 }
 
 .accueil{
@@ -127,9 +133,9 @@ font-size: 40px;
 
 .accueil{
 p{
-font-size: 30px;
+font-size: 35px;
 }
 h2{
-font-size: 25px;
+font-size: 30px;
 }
 }
