@@ -1,20 +1,19 @@
-.container{
-    max-width: 750px;
-margin: auto;
-text-align: center;
-padding: 20px 0;
+.container {
+  max-width: 750px;
+  margin: auto;
+  text-align: center;
+  padding: 20px 0;
 
-a:visited{
+  a:visited {
     text-decoration: none;
-color: inherit;
+    color: inherit;
+  }
 }
+.titremenu {
+  padding: 20px;
+  margin: auto;
 }
-.titremenu{
-  
-    padding: 20px;
-    margin: auto;
-    }
 
-body{
-@include mobile-menu;
+body {
+  @include mobile-menu;
 }

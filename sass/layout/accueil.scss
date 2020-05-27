@@ -1,141 +1,124 @@
-
-
-.accueil{
-    display: grid;
-    grid-template-columns:  1fr 1fr;
-    grid-gap: 70px;
-    grid-template-rows: 1fr 1fr;
-    height:  1050px;
- padding: 70px 0;
-img{
-width: 200px;
-}
-.shadow{
+.accueil {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 70px;
+  grid-template-rows: 1fr 1fr;
+  height: 1050px;
+  padding: 70px 0;
+  img {
+    width: 200px;
+  }
+  .shadow {
     box-shadow: 0px 1px 7px 0px #b8b295;
+  }
+  .menu-anim {
+    cursor: pointer;
+    position: relative;
+    transition: all 250ms ease-in-out;
 
-}
-    .menu-anim{
-cursor: pointer;
-position: relative;
-transition: all  250ms ease-in-out;
-
-&:hover {
-    transform: scale(1.2) ;
-    opacity: 0.50;
+    &:hover {
+      transform: scale(1.2);
+      opacity: 0.5;
     }
 
-    
-    
- .titre{
-        margin: auto;
-        }
-}
+    .titre {
+      margin: auto;
+    }
+  }
 
-    
-    .menu-1{
-      grid-column:1;
-        grid-row: 1;
-        background-color: $bg-menu1;
-     display: flex; 
-    img{
-    width: 50px;
+  .menu-1 {
+    grid-column: 1;
+    grid-row: 1;
+    background-color: $bg-menu1;
+    display: flex;
+    img {
+      width: 50px;
     }
- h2{
-     font-family:"devonshire";
- }
-p{
-font-family: "segoe";
-}
+    h2 {
+      font-family: "devonshire";
     }
-    .menu-2{
+    p {
+      font-family: "segoe";
+    }
+  }
+  .menu-2 {
     background-color: $bg-other;
     grid-column: 2;
     grid-row: 1;
     display: flex;
-     h2{
-        color: #d5934b;
-        font-family:"croissant";
-        font-size:24px;
-        }
-    p{
-    font-family:"charis";
+    h2 {
+      color: #d5934b;
+      font-family: "croissant";
+      font-size: 24px;
     }
+    p {
+      font-family: "charis";
     }
-    
-    .menu-3{
-        grid-column: 1; 
-        grid-row: 2;
+  }
+
+  .menu-3 {
+    grid-column: 1;
+    grid-row: 2;
     color: $txt-menu3;
     display: flex;
     background-color: #f9f9f9;
-   h2{
-    font-family:"parisienne";
-    background: -webkit-linear-gradient(left, #113ee1,#bcd9f2 );
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+    h2 {
+      font-family: "parisienne";
+      background: -webkit-linear-gradient(left, #113ee1, #bcd9f2);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    p {
+      color: #0887fb;
+      font-family: "charis";
+    }
+  }
 
-}
-p{
-color: #0887fb;
-font-family:"charis";
-}
+  .menu-4 {
+    grid-column: 2;
+    grid-row: 2;
+    display: flex;
+    background-color: #fdfffd;
+    h2 {
+      background: -webkit-linear-gradient(left, #45993d, #bfff7e);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-family: "kaushan";
     }
-    
-    
-    .menu-4{
-        
-        grid-column:2;
-        grid-row: 2;
-        display: flex;
-        background-color: #fdfffd;
-    h2{
-        background:  -webkit-linear-gradient(left, #45993d,#bfff7e );
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        font-family: "kaushan";
+    p {
+      color: #72bf56;
+      font-family: "charis";
     }
-p {
-color: #72bf56;
-font-family: "charis";
-}    
-}
-    
+  }
 
-        
-    
-    .titre{
-       margin: auto;
-    text-align: center;
-    }
-    }
-    
-    
-    .after{
-        color: $logo;
-        background-color: $vertheader;
-       max-width: 400px;
-       margin: auto;
-       display: flex;
-       border-radius: 10px;
-       cursor: pointer;
-    height: 80px;
-   
-
-  p{
-font-size: 35px;
-margin: auto;
-       &:after{
-        overflow: hidden;
-        display: inline-block;
-        position: absolute;
-        vertical-align: bottom;
-         -webkit-animation: ellipsis steps(4,end) 1s infinite;
-        content: "\2026"; /* ascii code for the ellipsis character */
-width:0px;
-       }   
+  .titre {
+    margin: auto;
     text-align: center;
   }
-    
-  
+}
 
+.after {
+  color: $logo;
+  background-color: $vertheader;
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  border-radius: 10px;
+  cursor: pointer;
+  height: 80px;
+
+  p {
+    font-size: 35px;
+    margin: auto;
+    &:after {
+      overflow: hidden;
+      display: inline-block;
+      position: absolute;
+      vertical-align: bottom;
+      -webkit-animation: ellipsis steps(4, end) 1s infinite;
+      content: "\2026"; /* ascii code for the ellipsis character */
+      width: 0px;
+    }
+    text-align: center;
+  }
 }

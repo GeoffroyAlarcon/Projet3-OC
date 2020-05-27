@@ -1,16 +1,13 @@
+header {
+  background-color: $vertheader;
+  padding: 10px 0px;
 
+  .logo {
+    margin: auto;
+    width: 400px;
 
-
-header{
-    background-color: $vertheader;
-padding: 10px 0px;
-
-.logo{
-margin: auto;
-width: 400px;
-
-img{
-margin: 20px;
-}
-}
+    img {
+      margin: 20px;
+    }
+  }
 }

@@ -1,35 +1,32 @@
-footer{
-    background-color: $vertheader;
-    color: $logo;
-position: fixed;
-bottom: 0em;
-    width: 100%;
-    padding-top: 0px;
+footer {
+  background-color: $vertheader;
+  color: $logo;
+  position: fixed;
+  bottom: 0em;
+  width: 100%;
+  padding-top: 0px;
 }
-p{
-    font-size: 30px;
+p {
+  font-size: 30px;
 }
-.containerfooter{
-display: flex;
-justify-content: space-between;
-margin: 0 30px;
+.containerfooter {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 30px;
 
-
-    .legal, .contact{
-display: flex;
+  .legal,
+  .contact {
+    display: flex;
 
     cursor: pointer;
-transition: all 582ms ease-out;
-&:hover {
-    animation: headshake 100ms cubic-bezier(.4,.1,.6,.9);
-}
-}
-
-
+    transition: all 582ms ease-out;
+    &:hover {
+      animation: headshake 100ms cubic-bezier(0.4, 0.1, 0.6, 0.9);
+    }
+  }
 }
 
-
-a{
-text-decoration: none;
-color: inherit;
+a {
+  text-decoration: none;
+  color: inherit;
 }

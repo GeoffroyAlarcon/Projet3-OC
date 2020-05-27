@@ -1,69 +1,62 @@
-
-
-.titremenu{
-margin: 0;
-padding: 20px;
-
+.titremenu {
+  margin: 0;
+  padding: 20px;
 }
 
-
-    .box-menu{
-    
-    height: auto;
+.box-menu {
+  height: auto;
   display: flex;
   flex-direction: column;
-box-shadow:  1px -2px 10px 0px  rgb(216, 212, 212);
+  box-shadow: 1px -2px 10px 0px rgb(216, 212, 212);
 
-      h1 {
-font-size: 50px;
+  h1 {
+    font-size: 50px;
   }
 
-  h2{
-  font-family: "charis";
+  h2 {
+    font-family: "charis";
   }
 
-  p{
+  p {
     font-size: 16px;
     font-style: "comics";
+  }
 
-}
-
-
-    .title{
+  .title {
     margin: auto;
-padding: 50px;
-    img{
-    width: 80px;}
+    padding: 50px;
+    img {
+      width: 80px;
     }
+  }
 
-   .orga-menu{
+  .orga-menu {
     @include orga-menu;
-   } 
-    .entrée{
+  }
+  .entrée {
     display: flex;
-    }
-    
-    .plat-de-résistance{
-  display: flex;
-}
-    .dessert {
+  }
+
+  .plat-de-résistance {
     display: flex;
-    }
-    .fin-maquette{
-display: flex;
-      margin: auto;
+  }
+  .dessert {
+    display: flex;
+  }
+  .fin-maquette {
+    display: flex;
+    margin: auto;
     padding: 30px;
-    
-.imgfin{
-width: 50px;
-padding: 0 20px;
-}
-}
+
+    .imgfin {
+      width: 50px;
+      padding: 0 20px;
+    }
+  }
 }
 
-.marginother{
-  .plat{
+.marginother {
+  .plat {
     margin: 30px 50px;
-    }
+  }
 }
- 
