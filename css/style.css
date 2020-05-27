@@ -118,9 +118,7 @@ footer p {
 
 h2 {
   font-size: 20px;
-  font-weight: bolder;
   margin: auto;
-  text-align: justify;
 }
 
 H1 {
@@ -189,6 +187,10 @@ header .logo img {
 @media (max-width: 640px) {
   body .container {
     max-width: 100%;
+    margin: 20px;
+  }
+  body .container h2 {
+    font-size: 13px;
   }
   body header .logo {
     width: 60%;
@@ -222,7 +224,7 @@ header .logo img {
     padding: 30px 0px;
   }
   body .accueil .menu-2 h2 {
-    font-size: 12px;
+    font-size: 10px;
   }
   body .accueil h2 {
     font-size: 12px;
@@ -257,6 +259,9 @@ header .logo img {
   body .after p {
     font-size: 20px;
   }
+  body .chic .title h1 {
+    font-size: 16px;
+  }
   body .marginother .plat {
     margin: auto;
   }
@@ -273,6 +278,9 @@ header .logo img {
   body .box-menu .title img {
     width: 70px;
   }
+  body .box-menu .fin-maquette h2 {
+    font-size: 18px;
+  }
   body .box-menu .fin-maquette .imgfin {
     padding: 0 10px;
   }
@@ -282,8 +290,11 @@ header .logo img {
   body .box-menu .orga-menu {
     margin: 10px;
   }
+  body .box-menu .orga-menu .ombremenu1 {
+    grid-template-columns: 20% 60% 20%;
+  }
   body .box-menu .orga-menu p {
-    font-size: 10px;
+    font-size: 9px;
   }
   body .box-menu .orga-menu .prix p {
     padding: 0px;
