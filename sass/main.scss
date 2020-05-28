@@ -1,13 +1,10 @@
 @import "./utils/variables";
 @import "./utils/functions";
 @import "./utils/mixins";
-@import "./utils/extensions";
 @import"./utils/kayframes";
 @import "./base/base";
 @import "./base/typography";
-
-@import "./composents/buttons";
-@import"./composents/img";
+@import"./composants/img";
 @import "./layout/header";
 @import "./layout/container";
 @import "./layout/main";

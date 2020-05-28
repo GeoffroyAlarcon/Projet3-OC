@@ -1,139 +1,122 @@
-
-  @font-face{
-    font-family: "Questa-Regular";
-    src: url("font/Questa-Regular.otf");
-  }
-
-    @font-face{
-font-family: "Cultura";
-src: url("font/Cultura.otf");}
-
-@font-face{
-font-family: "FauxCRA";
-src: url("font/FauxCRA.otf");
+@font-face {
+  font-family: "Questa-Regular";
+  src: url("font/Questa-Regular.otf");
 }
 
 @font-face {
-    font-family: "Devonshire";
-    src: url("font/devonshire-Regular.ttf");
-    }
-    @font-face{
-    font-family: "segoe";
-    src: url("font/Segoe.ttf");
-    }
-    @font-face{
-    font-family: "croissant";
-    src: url("font/CroissantOne-Regular.ttf");
-    }
-    @font-face{
-    font-family:"charis";
-    src: url("font/CharisSILB.ttf");
-    }
-    @font-face{
-    font-family: "parisienne";
-    src: url("font/Parisienne.ttf");
-    }
-    @font-face {
-    font-family:"comics";
-    src: url("font/NightShift-Demo.ttf");
-    }
-    @font-face{
-    font-family: "kaushan";
-    src: url("font/KaushanScript-Regular.ttf");
-    }
-    
-  
-header{
-    h1 
-{
-color: $logo;
-font-size: 70px;
-font-style: sherif;
-display: flex;
-margin: auto;
-}
+  font-family: "Cultura";
+  src: url("font/Cultura.otf");
 }
 
-
-.titremenu{
-p{
-font-size: 40px;
-font-family: "charis";
-}
+@font-face {
+  font-family: "FauxCRA";
+  src: url("font/FauxCRA.otf");
 }
 
-main{
+@font-face {
+  font-family: "Devonshire";
+  src: url("font/devonshire-Regular.ttf");
+}
+@font-face {
+  font-family: "segoe";
+  src: url("font/Segoe.ttf");
+}
+@font-face {
+  font-family: "croissant";
+  src: url("font/CroissantOne-Regular.ttf");
+}
+@font-face {
+  font-family: "charis";
+  src: url("font/CharisSILB.ttf");
+}
+@font-face {
+  font-family: "parisienne";
+  src: url("font/Parisienne.ttf");
+}
+@font-face {
+  font-family: "comics";
+  src: url("font/NightShift-Demo.ttf");
+}
+@font-face {
+  font-family: "kaushan";
+  src: url("font/KaushanScript-Regular.ttf");
+}
 
-    a{
+header {
+  h1 {
+    color: $logo;
+    font-size: 70px;
+    display: flex;
+    margin: auto;
+  }
+}
+
+.titremenu {
+  p {
+    font-size: 40px;
+    font-family: "charis";
+  }
+}
+
+main {
+  a {
     text-decoration: none;
     margin: auto;
     display: flex;
-}
+  }
 
-.accueil{
-p{
-text-align: center;
+  .accueil {
+    p {
+      text-align: center;
+    }
+  }
 }
-}
-
-
-}
-.menu-2{
-   h2 { 
-    background:  -webkit-linear-gradient( left, #d8852e, #9861ef);
--webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;  
+.menu-2 {
+  h2 {
+    background: -webkit-linear-gradient(left, #d8852e, #9861ef);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-style: italic;
-}
-    p{
-        color: #d5934b;
-
-        }
-}
-
-.menu-4{
-h3{
-
-background: -webkit-linear-gradient(left, $txt-menu4,#bfff7e);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-font-style: italic;;
+  }
+  p {
+    color: #d5934b;
+  }
 }
 
+.menu-4 {
+  h3 {
+    background: -webkit-linear-gradient(left, $txt-menu4, #bfff7e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-style: italic;
+  }
 }
 
-
-
-.box-menu{
-
-h2{
-text-align: center;
+.box-menu {
+  h2 {
+    text-align: center;
+  }
 }
-
-}
-
-
 
 footer p {
-font-size: 22px;
+  font-size: 22px;
 }
 
-h2{
-font-size: 20px;
-margin: auto;
+h2 {
+  font-size: 20px;
+  margin: auto;
 }
 
-H1{
-margin: auto;
-font-size: 40px;
+H1 {
+  margin: auto;
+  font-size: 40px;
 }
 
-
-.accueil{
-p{
-font-size: 35px;
-}
-h2{
-font-size: 30px;
-}
+.accueil {
+  p {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 30px;
+  }
 }

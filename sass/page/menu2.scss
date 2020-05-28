@@ -1,7 +1,7 @@
 .dégradéchic {
   @include txt-box-menu2;
   h1 {
-    font-family: "croissant";
+    font-family: "croissant", serif;
     background: -webkit-linear-gradient(left, #d8852e, #9861ef);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
